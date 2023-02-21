@@ -1,0 +1,54 @@
+{
+  "material-icon-theme.folders.associations": {
+    "third_party": "Middleware",
+    "rimuru": "Home"
+  },
+  "material-icon-theme.files.associations": {
+    "WORKSPACE": "Bazel",
+    "BUILD": "Bazel",
+    "*.BUILD": "Bazel"
+  },
+  "files.associations": {
+    ".bazelrc": "txt"
+  },
+  "cSpell.words": [
+    "absl",
+    "Bazel",
+    "bazelrc",
+    "bugprone",
+    "buildifier",
+    "colwise",
+    "Constexpr",
+    "eigen",
+    "ETLREADCSVTEST",
+    "ETLREADCSVTESTRETURN",
+    "filegroup",
+    "flgs",
+    "genrule",
+    "gflags",
+    "googletest",
+    "hdrs",
+    "hedron",
+    "HWPRINTRETURN",
+    "HWTEST",
+    "kwargs",
+    "pybind",
+    "READCSV",
+    "Rimuru",
+    "rowwise",
+    "skylib",
+    "srcs",
+    "Struct",
+    "subpackages",
+    "swappable"
+  ],
+
+  "files.exclude": {
+    // ".vscode/": true,
+    "bazel-*": true
+  },
+
+  "search.exclude": {
+    "build/": true
+  }
+}
