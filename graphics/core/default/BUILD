@@ -2,6 +2,6 @@
 
 package(
     default_visibility = [
-        "//graphics/core:__pkg__",
+        "//graphics:__pkg__",
     ],
 )

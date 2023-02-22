@@ -45,7 +45,9 @@
 
   "files.exclude": {
     // ".vscode/": true,
-    "bazel-*": true
+    "bazel-*": true,
+    ".cache": true,
+    "external": true
   },
 
   "search.exclude": {
