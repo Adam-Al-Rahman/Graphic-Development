@@ -21,10 +21,6 @@ namespace graphics{
 
   class GWindow{
 
-    public:
-      GWindow(int window_width, int window_height, std::string window_name);
-      ~GWindow(); // destructor: for clean when we done with using the window
-
     private:
       void init_window();
 
@@ -33,6 +29,20 @@ namespace graphics{
       std::string window_name_;
 
       GLFWwindow *window_;
+
+    public:
+      GWindow(int window_width, int window_height, std::string window_name);
+      ~GWindow(); // destructor: for clean when we done with using the window
+
+      GWindow(const GWindow&) = delete;;
+      GWindow& operator = (const GWindow&) = delete;;
+
+
+      bool should_close(){
+        return glfwWindowShouldClose(window_) != 0;
+      }
+
+
   };
 
 } // namespace graphics;

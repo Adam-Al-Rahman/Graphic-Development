@@ -8,5 +8,20 @@ cc_library(
       "//third_party/glm",
       "@rules_vulkan//vulkan:vulkan_cc_library"
     ],
-    visibility = ["//graphics/src:__subpackages__"],
+    visibility = [
+      "//graphics/src:__subpackages__",
+      "//graphics/core:__subpackages__"
+    ],
+)
+
+cc_library(
+  name = "app",
+  srcs = ["app/app.cc"],
+  hdrs = ["app/app.h"],
+  deps = [
+    "//graphics/core:window"
+  ],
+  visibility = [
+    "//graphics/src:__subpackages__",
+  ]
 )

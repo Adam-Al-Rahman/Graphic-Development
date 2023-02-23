@@ -26,6 +26,8 @@
     "flgs",
     "genrule",
     "gflags",
+    "GLFW",
+    "GLFWWINDOWHINT",
     "googletest",
     "hdrs",
     "hedron",
