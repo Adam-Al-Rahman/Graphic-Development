@@ -14,6 +14,10 @@
 
 namespace graphics{
 
+  namespace line{
+
+
+  } // namespace line;
 
 } // namespace graphics;
 
