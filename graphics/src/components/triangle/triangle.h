@@ -13,7 +13,7 @@
 #define GRAPHIC_SRC_COOMPONENTS_TRIANGLE_H_
 
 
-namespace graphcis{
+namespace graphics{
   namespace triangle{
 
   } // namespace triangle;

@@ -1,5 +1,11 @@
 # Graphics
 
+Simple starter project with vulkan and bazel
+
+## Vulkan
+
+API used for Programming video games development and rendering 3D graphics.
+
 ## Local Bazel Package Support
 
 - Using `Hedron` for vscode and clangd to identify the third_party package and after every build just run
@@ -8,6 +14,10 @@
 ## Points
 
 - Not consider `#pragma once` for c++ header file instead use `ifndef`;
+
+## Installation
+
+Install `Vulkan pre-requirements`, `Vulkan` and `bazel`.
 
 ## How to Run
 
